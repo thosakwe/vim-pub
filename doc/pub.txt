@@ -1,0 +1,38 @@
+*pub.txt*	For Vim version 8.1	Last change: 2018 March 7
+
+                          Pub ~
+
+              Pub helper commands for Vim. ~
+=======================================================
+COMMANDS                                  *pub-commands*
+
+You can set 'g:pub_command' to use a different
+executable, instead of `pub`.
+
+By default, in a `pubspec.yaml` file, the following
+keystrokes will be bound:
+
+<localleader>pg                                  :PubGet
+<localleader>pu                              :PubUpgrade
+
+:PubGet                                        *:PubGet*
+
+Executes `pub get`, and prints the output in a new window.
+Can be configured; see |pub-commands|.
+
+:PubUpgrade [opts]
+
+Executes `pub upgrade <opts>`, and prints the output in a new window.
+Can be configured; see |pub-commands|.
+
+:PubRun <opts>
+
+Executes `pub run <opts>`, and prints the output in a new window.
+Can be configured; see |pub-commands|.
+
+:PubTest <opts>
+
+Executes `pub run test <opts>`, and prints the output in a new window.
+Can be configured; see |pub-commands|. Also see |:PubRun|.
+
+vim:tw=78:et:ft=help:norl:
