@@ -11,7 +11,7 @@ Plug 'thosakwe/vim-pub'
 ## Usage
 `vim-pub` adds the following commands:
 * `:PubGet`
-* `:PubUpgrade
+* `:PubUpgrade`
 * `:PubRun`
 * `:PubTest`
 
